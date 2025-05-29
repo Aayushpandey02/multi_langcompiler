@@ -1,0 +1,354 @@
+[
+  {
+    "timestamp": "2025-05-28 12:50:41",
+    "language": "C",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:50:51",
+    "language": "C",
+    "code": "#include <stdio.h>\r\nint main() {\r\n  int n, reversed = 0, remainder, original;\r\n    printf(\"Enter an integer: \");\r\n    scanf(\"%d\", &n);\r\n    original = n;\r\n    while (n != 0) {\r\n        remainder = n % 10;\r\n        reversed = reversed * 10 + remainder;\r\n        n /= 10;\r\n    }\r\n    if (original == reversed)\r\n        printf(\"%d is a palindrome.\", original);\r\n    else\r\n        printf(\"%d is not a palindrome.\", original);\r\n\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Illegal character '#include' in code.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:51:02",
+    "language": "C",
+    "code": "int main() {\r\n  int n, reversed = 0, remainder, original;\r\n    printf(\"Enter an integer: \");\r\n    scanf(\"%d\", &n);\r\n    original = n;\r\n    while (n != 0) {\r\n        remainder = n % 10;\r\n        reversed = reversed * 10 + remainder;\r\n        n /= 10;\r\n    }\r\n    if (original == reversed)\r\n        printf(\"%d is a palindrome.\", original);\r\n    else\r\n        printf(\"%d is not a palindrome.\", original);\r\n\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Command '['C:\\\\Users\\\\Harsh\\\\AppData\\\\Local\\\\Temp\\\\tmpvibon0ca.c.out']' timed out after 5 seconds",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:54:11",
+    "language": "C",
+    "code": "int main() {\r\n    printf(\"Hello World!\\\\n\");\r\n    return 0;\r\n}",
+    "output": "Hello World!\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:59:09",
+    "language": "C",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:59:33",
+    "language": "C",
+    "code": "#include <stdio.h>\r\nint main() {\r\n  int n, reversed = 0, remainder, original;\r\n    printf(\"Enter an integer: \");\r\n    scanf(\"%d\", &n);\r\n    original = n;\r\n    while (n != 0) {\r\n        remainder = n % 10;\r\n        reversed = reversed * 10 + remainder;\r\n        n /= 10;\r\n    }\r\n    if (original == reversed)\r\n        printf(\"%d is a palindrome.\", original);\r\n    else\r\n        printf(\"%d is not a palindrome.\", original);\r\n\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Illegal character '#include' in code.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 12:59:38",
+    "language": "C",
+    "code": "int main() {\r\n  int n, reversed = 0, remainder, original;\r\n    printf(\"Enter an integer: \");\r\n    scanf(\"%d\", &n);\r\n    original = n;\r\n    while (n != 0) {\r\n        remainder = n % 10;\r\n        reversed = reversed * 10 + remainder;\r\n        n /= 10;\r\n    }\r\n    if (original == reversed)\r\n        printf(\"%d is a palindrome.\", original);\r\n    else\r\n        printf(\"%d is not a palindrome.\", original);\r\n\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Input functions like scanf/cin are not supported in this demo.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:10:14",
+    "language": "C",
+    "code": "\r\nint main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    // calculate the sum\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Input functions like scanf/cin are not supported in this demo.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:10:19",
+    "language": "C",
+    "code": "int main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    // calculate the sum\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Input functions like scanf/cin are not supported in this demo.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:10:55",
+    "language": "Python",
+    "code": "\r\nint main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    // calculate the sum\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Input functions like scanf/cin are not supported in this demo.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:12:01",
+    "language": "Python",
+    "code": "int main() {    \r\n\r\n    int number1 =2;\r\n    int number2 =3;\r\n    int sum=0;\r\n    \r\n\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Runtime error:\n  File \"C:\\Users\\Harsh\\AppData\\Local\\Temp\\tmpivh25_b9.py\", line 1\n    int main() { int number1 =2; int number2 =3; int sum=0; sum = number1 + number2; printf(\"%d + %d = %d\", number1, number2, sum); return 0; }\n        ^^^^\nSyntaxError: invalid syntax\n",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:12:18",
+    "language": "C",
+    "code": "int main() {    \r\n\r\n    int number1 =2;\r\n    int number2 =3;\r\n    int sum=0;\r\n    \r\n\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "2 + 3 = 5",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:12:20",
+    "language": "C",
+    "code": "int main() {    \r\n\r\n    int number1 =2;\r\n    int number2 =3;\r\n    int sum=0;\r\n    \r\n\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "2 + 3 = 5",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:12:31",
+    "language": "C",
+    "code": "#include <stdio.h>\r\nint main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    // calculate the sum\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Illegal character '#include' in code.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:12:36",
+    "language": "C",
+    "code": "\r\nint main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    // calculate the sum\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}\r\n",
+    "output": "",
+    "error": "Input functions like scanf/cin are not supported in this demo.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:19:06",
+    "language": "C",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 16:19:19",
+    "language": "C",
+    "code": "int main() {    \r\n\r\n    int number1, number2, sum;\r\n    \r\n    printf(\"Enter two integers: \");\r\n    scanf(\"%d %d\", &number1, &number2);\r\n\r\n    sum = number1 + number2;      \r\n    \r\n    printf(\"%d + %d = %d\", number1, number2, sum);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Command '['C:\\\\Users\\\\Harsh\\\\AppData\\\\Local\\\\Temp\\\\tmp30hpu5cu.c.out']' timed out after 10 seconds",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:24",
+    "language": "Python",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Runtime error:\n  File \"C:\\Users\\Harsh\\AppData\\Local\\Temp\\tmp_goc3tay.py\", line 1\n    int main() {\n        ^^^^\nSyntaxError: invalid syntax\n",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:30",
+    "language": "C",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "Enter a number: You entered a positive number.",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:40",
+    "language": "C",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "Enter a number: You entered a positive number.",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:47",
+    "language": "C",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "Enter a number: You entered a positive number.",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:57",
+    "language": "C",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "Enter a number: You entered a positive number.",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:37:59",
+    "language": "C",
+    "code": "int main() {\r\n\r\n    double num;\r\n    printf(\"Enter a number: \");\r\n    scanf(\"%lf\", &num);\r\n    if (num <= 0.0) {\r\n        if (num == 0.0)\r\n            printf(\"You entered 0.\");\r\n        else\r\n            printf(\"You entered a negative number.\");\r\n    } \r\n    else\r\n        printf(\"You entered a positive number.\");\r\n\r\n    return 0;\r\n}",
+    "output": "Enter a number: You entered a positive number.",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:38:27",
+    "language": "C",
+    "code": "#include <stdio.h>\r\nint main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Illegal character '#include' in code.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:43:29",
+    "language": "C",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:43:58",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 10752000\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:23",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 12238848\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:27",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 12091392\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:30",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 11378688\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:31",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 11501568\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:32",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 10346496\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:34",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 6463488\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-28 17:44:35",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}\r\n",
+    "output": "Triple: 11636736\\n",
+    "error": "",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:03:52",
+    "language": "C++",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:03:56",
+    "language": "C++",
+    "code": "",
+    "output": "",
+    "error": "Empty code provided.",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:03",
+    "language": "C++",
+    "code": "INT X",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:30",
+    "language": "C++",
+    "code": "INT Xint main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:35",
+    "language": "C",
+    "code": "INT Xint main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:36",
+    "language": "C",
+    "code": "INT Xint main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:43",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:47",
+    "language": "Python",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Runtime error:\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Temp\\tmp9d7kysx3.py\", line 1\n    int main() {\n        ^^^^\nSyntaxError: invalid syntax\n",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:55",
+    "language": "C",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:04:59",
+    "language": "C++",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "[WinError 2] The system cannot find the file specified",
+    "suggestion": null
+  },
+  {
+    "timestamp": "2025-05-29 22:05:37",
+    "language": "Python",
+    "code": "int main() {\r\n    int x;\r\n    scanf(\"%d\", &x);\r\n    printf(\"Triple: %d\\\\n\", x * 3);\r\n    return 0;\r\n}",
+    "output": "",
+    "error": "Runtime error:\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Temp\\tmpxcp729p0.py\", line 1\n    int main() {\n        ^^^^\nSyntaxError: invalid syntax\n",
+    "suggestion": null
+  }
+]
