@@ -11,7 +11,7 @@ def run_code(code, lang, stdin_input=""):
     }[lang]) as tmp:
         tmp.write(code.encode())
         tmp.flush()
-        filename = tmp.
+        filename = tmp.name
 
     try:
         if lang in ['C', 'C++']:
